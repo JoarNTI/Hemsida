@@ -1,0 +1,45 @@
+* {
+  margin: 25px;
+  padding: 0;
+  font-family: "Russo One", sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  color: yellow;
+  margin: 50px;
+  padding: 8px;
+  background-color: black;
+}
+
+body {
+  background-image: url("bananer\ i\ pyjamas.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article {
+  margin: auto;
+  padding: 0px;
+  line-height: 2;
+  width: 50%;
+}
+
+nav {
+  margin: auto;
+  padding: 0px;
+  line-height: 2;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%;
+}
